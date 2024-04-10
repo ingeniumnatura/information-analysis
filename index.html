@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1">
+
+
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script id="MathJax-script" async
+          src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+</script>
+
+<style>
+    
+:root {
+  --system-ui: system-ui, "Segoe UI", Roboto, Helvetica Neue, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+    
+body, html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  line-height: 1.382;
+  font-weight: 300;
+  font-family: var(--system-ui);
+  -webkit-font-smoothing: auto;
+  color: #f5f5f7;
+}
+
+h1 {
+
+font-family: var(--system-ui);
+font-weight: 350;
+letter-spacing: 0.008em;
+
+}
+
+h3 {
+font-family: var(--system-ui);
+font-weight: 400;
+padding-top: 0.618em;
+
+}
+
+a {
+
+color: #4789bf;
+text-decoration: none;
+
+}
+
+a:hover {
+
+text-decoration: underline;
+
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+
+.background {
+  width: 100%;
+  background-image: linear-gradient(to  right, #fdf7f6, #fbf2ef, #fdf7f6 );
+  color: #000;
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+
+}
+    
+.profile-container {
+    width: 85.4%;
+    display: inline;
+    padding-top:0em;
+}
+    
+    
+    
+.profile-container img {
+    width: 61.8%;
+    justify-content: center;
+    border-radius: 50%;
+    padding-top: 2.618em;
+    padding-bottom: 2.618em;
+    
+
+    
+}
+    
+.rectangle-img img{
+    width: 100%;
+    justify-content: center;
+    border-radius: 50%;
+    padding-top: 1.618em;
+    border-radius: 0.312em;
+    
+    
+}
+    
+.profile-top-banner-padding {
+    width: 100%;
+    height: 2.236em;
+    background-image: linear-gradient(to  right, #1E283D, #314163, #1E283D );
+
+}
+    
+.profile-banner {
+    width: 100%;
+    background-image: linear-gradient(to  right, #1E283D, #314163, #1E283D );
+    color: #F5F5F7;
+    text-align: center;
+    padding-top: 1.618em;
+    padding-bottom: 1.618em;
+    box-shadow: 0px 2px 8px 2px grey;
+
+}
+    
+
+    
+.profile-item {
+    margin-top: 0%;
+    margin-bottom: 1.618em;
+    padding: 1.618em;
+    box-shadow: 1px 1px 3px grey;
+    backdrop-filter: blur(80px);
+    -webkit-backdrop-filter: blur(80px);
+    text-align: left;
+    font-size: 1em;
+    border-radius: 0.312em;
+}
+    
+.profile-item h3 {
+    padding: 0em;
+    padding-bottom: 0.618em;
+}
+    
+    
+.profile-text {
+    
+    
+}
+
+.profile-text p {
+    }
+    
+
+    
+@media (min-width:1024px)  {
+    
+    .background {
+        font-size: 1em;
+    }
+    
+    .profile-container {
+    width: 61.8%;
+    display: inline;
+    }
+    
+    .profile-container img {
+        width: 32.8%;
+        padding-bottom: 1.618em;
+    }
+    
+    .profile-banner {
+        padding-top: 1.618em;
+    }
+    
+}
+    
+@media (min-width:768px)  {
+
+    .background {
+        font-size: 1em;
+    }
+    
+    .profile-top-banner-padding {
+        height: 2.618em;
+    }
+    
+
+    
+}
+    
+    
+    
+
+
+
+
+#header {
+position: fixed;
+top: 0;
+width: 100%;
+height: auto;
+Padding-bottom: 0.618em;
+background-color: rgba(3,18,31,0.6);
+backdrop-filter: blur(20px);
+-webkit-backdrop-filter: blur(20px);
+
+}
+
+.navigation {
+
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-right: 0.618em;
+  padding-left: 0.618em;
+
+}
+
+.social-icons {
+
+  display:flex;
+  justify-content: center;
+
+}
+
+.social-icons img{
+  display: block;
+
+
+  height:1em;
+
+  padding-right: 0em;
+  padding-left: 0em;
+
+
+}
+
+
+
+.navigation-item {
+  display: inline-block;
+  font-size: 1em;
+  padding-top: 0.618em;
+  padding-bottom: 0;
+  padding-right: 1.382em;
+  padding-left: 1.382em;
+  align-self: center;
+
+}
+
+.navigation-item a {
+  text-decoration: none;
+  opacity: 0.8;
+  transition: 0.3s;
+  color: #f5f5f7;
+}
+
+.navigation-item a:hover {
+  opacity: 1
+}
+
+
+
+
+
+
+</style>
+</head>
+<body>
+
+
+
+<div class="background">
+    <div class="profile-top-banner-padding"></div>
+    <div class="profile-banner">
+        <h1>INFORMATION ANALYSIS</h1>
+    </div>
+    
+    <div class="profile-container">
+        <div class="profile-text">
+            <center>
+            
+            
+        
+            <img src="emblem.png" alt="profile">
+                
+            <h3 class="padding-bottom:2.618em">Joseph Shaw</h3>
+            </center>
+            <br>
+            
+            <div class="profile-item">
+                <p>Use and redistribution of this material with or without modification is permitted provided that the following conditions are met:<p>
+                <br>
+                
+                <p>Redistributions of material and/or other materials provided in any format must retain the above notice that identifies and credits the original author and contributors, this list of conditions and the following disclaimers:</p>
+                
+                <br>
+
+
+                <p>THIS MATERIAL IS PROVIDED BY THE AUTHOR AND CONTRIBUTORS 'AS IS'.</p>
+                
+                <br>
+
+                <p>ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.</p>
+                
+                <br>
+
+                <p>IN NO EVENT SHALL THE AUTHOR OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, TORT, OR ANY CIVIL WRONG THAT CAUSES LOSS OR HARM (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS MATERIAL, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. </p>
+                
+            </div>
+            
+            
+            
+            <div class="profile-item" style="margin-bottom:2.618em;">
+                <h3>INTRODUCTION</h3>
+                <p>Information theory is a powerful framework to deepen and enrich understanding across a broad variety of technical fields - from obvious applications in computer science such as data compression and encryption, to statistics and machine learning, to fundamental theories of physics. </p>
+                
+                <br>
+                
+                <p>Such a broadly applicable study that lies at the intersection of many technical fields has resulted in some formulations that use arguably esoteric mathematical notation that may be difficult to understand for those new to the subject. Some authors dismiss this as expected convention, as it certainly is understandable that a such a rich subject that builds upon a broad set of different branches of mathematics requires some liberty in notation. This text is an attempt to develop information theoretic structures using a style of notation both accessible and appropriately robust; successes in fields like analysis are inspiration.</p>
+                
+                <br>
+                
+                <p>Familiarity with basic concepts and structures of real analysis is recommended prerequisite material; set-builder notation is frequently used for discrete cases, and integrals and derivatives for continuous.</p>
+                
+                <br>
+                
+                <p>As data compression is one of the core applications of information theory, emphasis is placed on developing definitions in a compact style. Mathematical logic symbols are frequently used, however, some liberty will occasionally be taken in notation; this is not an exercise in axiomatically describing structures in number theory or analysis or a rigorous formulation of mathematical logic. Rather, consider these foundations upon which this analytic development of information theory is built.</p>
+
+            </div>
+                    
+        </div>
+    </div>
+        
+        <div class="profile-banner" style="margin-bottom:2.618em;">
+            <h1>NOTATION</h1>
+        </div>
+        
+        <div class="profile-container">
+            
+            
+            <div class="profile-text">
+                <div class="profile-item">
+                    
+                    
+                    
+        
+        <p>∅ is the empty set. </p>
+        <br>
+        <p>ℕ is the set of natural numbers beginning with 1 and excluding 0.[¹]</p>
+        <br>
+        <p>ℝ is the set of real numbers.</p>
+                                
+                    
+                    
+                </div>
+
+
+            
+                
+                
+                
+                <div class="profile-item" style="margin-bottom:2.618em;">
+                    <p>Sets are constructed using set-builder notation:</p><p>
+                    <br>
+                    <div style="text-indent:1.618em;">
+                        <p>{expression | predicate}</p>
+                    </div>
+                    <br>
+                    <div style="text-indent:2.618em;">
+                        <p>Expressions designate statements using numbers, variables, functions, etc.</p>
+                        <br>
+                        <p>Predicates are logical formulas applied to expressions.</p>
+                        <br>
+                        <p>The  |  symbol, read as 'such that', separates expressions from predicates.</p>
+                        <br>
+                        <p>Simple finite sets are constructed without predicates. </p>
+                        <br>
+                        <br>
+                    </div>
+                    <p>For example the set containing the letters a, b, c, and d as elements is simply:</p>
+                    <br>
+                    <div style="text-indent:2.618em;">
+                    {a, b, c, d}.
+                    </div>
+                    
+                    
+
+                </div>
+                
+                <div class="profile-item" style="margin-bottom:2.618em;">
+                    <p>Logic symbols are used to construct formulas and expressions.</p>
+                    <br>
+                    <br>
+                    <p>∪ (union) operation combines all unique elements of multiple sets:</p>
+                    <br>
+                    
+                    <div style="text-indent:1.618em;">
+                        <p>{a, b, c} ∪ {d, e, f} = {a, b, c, d, e, f}</p>
+                        <br>
+                        <p>if A = {1, 2, 3} and B = {3, 4, 5}, then A ∪ B = {1, 2, 3, 4, 5}</p>
+                        <br>
+                        <p>∪( {1, 2, 3}, {4, 5}, {6} ) = {1, 2, 3, 4, 5, 6}</p>
+                    </div>
+                        
+                    <br>
+                    <br>
+                    
+                    <p>∩ (intersection) operation results in a set with all elements that are common to multiple sets:</p>
+                    <br>
+                    <div style="text-indent:1.618em;">
+                        <p>{0, 3, q, k} ∩ {0, k, j, 340} = {0, k}</p>
+                        <br>
+                        <p>if A = {1, 2, 3} and B = {3, 4, 5}, then A ∩ B = {3}</p>
+                        <br>
+                        <p>∩( {1, 2, 3}, {a, b, c}, {4} ) = ∅</p>
+                    </div>
+                    
+                    <br>
+                    
+                    
+                    
+                    
+                    
+                    
+                    <p>- (difference) operation, when applied to sets results in a set with elements that are in one set but not in another:</p>
+                    <br>
+                    <p>           {a, b, c} - {b, c} = {a}</p><p>            {0, 1, 2, 4} - {0, 1, 3, 4, 5} = {2}</p><p>            For any sets A and B, A - (A - B) = A ∩ B <br>    </p><p><br>    ∈ (is an element of)    </p><p>        indicates that an element belongs to a set:</p><p><br>            0 ∈ {0, 1, 2, 3, 4}</p><p>            if A = {1, 2, 3}, then 3 ∈ A</p><p></p><p>    ⊆ (is a subset of)</p><p>        indicates that a set is either equivalent to or a subset of another set:</p><p><br>            for any set A, A ⊆ A</p><p>            {1, 2} ⊆ {0, 1, 2, 3}</p><p>            {∅} ⊆ {∅}</p><p>            {a, d, e} ⊆ {b, a, c, d, e}</p><p></p><p>    ∃ (there exists, there is at least one)<br>        <br>        is called the existential quantifier. For example, consider this statement:</p><p>            Some natural number n exists such that n minus 1 is equal to 9.</p><p>            This can be expressed:<br>                <br>            ∃ n ∈ ℕ | n - 1 = 9<br>        </p><p><br>    ∀ (for all, for each)</p><p>        expresses universal quantification, or that a statement holds true for all elements in a set:</p><p>            (x < 10) ∀ x ∈ {6, 7, 8, 9}<br>        </p><p>    <br>    ⇒ (implies)</p><p>        expresses that a statement is necessarily true dependent upon if another is true; if the statement before the symbol is true, the truth of the second statement after the symbol is necessarily true:</p><p>        x + 2 = 4 ⇒ x = 2</p><p><br>    <br>    Σ (summation)<br>        <br>        adds a sequence of numbers:</p><p><br>            Σ(i) ∀ i ∈ {0, 2, 4, 6} = 12</p><p>            or more compactly:</p><p>            Σ{0, 2, 4, 6} = 12</p><p><br>        For brevity, for any set A consider ΣA equivalent to Σ(i) ∀ i ∈ A<br>    </p><p><br>    ∫ (integration) </p><p>        is the analog of summation for a continuous function. For example the definite integral:</p><p><br>        ∫[a, b] f(x) dx</p><p><br>        represents the accumulation of values of the function f(x) over the continuous interval a ≤ x ≤ b.</p><p>        Here, dx represents an infinitesimal change in a variable x and to integrate with respect to x.</p><p></p><p></p><p>Logarithms:</p><p><br>    logₙ (logarithm base n):</p><p>        logₙ(x) is the exponent to which n must be raised to produce x. For example:</p><p>        8 = 2³, so:</p><p>        log₂(8) = 3.</p><p><br>    ln (natural logarithm):<br>    <br>        is the logarithm with a base of Euler's number e = Σ{1/(n - 1)! | n ∈ ℕ}:</p><p>        ln(eˣ) = x</p><p></p><p></p>
+                        
+                        <br>
+                        <hr>
+                        <br>
+                        
+                        <p>[¹] Some definitions of ℕ begin with and include 0 rather than beginning with 1:<br>
+                        https://www.iso.org/standard/76921.html</p>
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                </div>
+
+
+                
+                
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+<div id="header" class="section">
+    <div class="navigation">
+        
+        <!--
+        
+        <div class="social-icons">
+            <div class="navigation-item"><a href="#index"><img src="emblem.png" alt="index" style="height:2.618em; background-color:transparent; border-radius: 50%;"></a></div>
+        </div>
+        
+        -->
+
+        <div class="navigation-item"><a href="#design">Publications</a></div>
+        <div class="social-icons">
+
+            <div class="navigation-item"><a href="https://www.youtube.com/@ingeniumnatura/"><img src="logo-youtube.svg" alt="YouTube Logo"></a></div>
+            <div class="navigation-item"><a href="https://www.twitter.com/ingeniumnatura/"><img src="logo-x.png" alt="X/Twitter Logo"></a></div>
+            <div class="navigation-item"><a href="https://www.instagram.com/ingeniumnatura/"><img src="logo-instagram.svg" alt="Instagram Logo" style="height:1em;"></a></div>
+            
+            
+
+
+        </div>
+
+    </div>
+</div>
+
+</body>
+</html>
