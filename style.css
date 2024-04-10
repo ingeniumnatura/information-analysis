@@ -1,0 +1,248 @@
+:root {
+  --system-ui: system-ui, "Segoe UI", Roboto, Helvetica Neue, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+    
+body, html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  line-height: 1.618;
+  font-weight: 300;
+  font-family: var(--system-ui);
+  -webkit-font-smoothing: auto;
+  color: #f5f5f7;
+}
+
+h1 {
+
+font-family: var(--system-ui);
+font-weight: 350;
+letter-spacing: 0.008em;
+
+}
+
+h3 {
+font-family: var(--system-ui);
+font-weight: 400;
+padding-top: 0.618em;
+
+}
+
+a {
+
+color: #4789bf;
+text-decoration: none;
+
+}
+
+a:hover {
+
+text-decoration: underline;
+
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+
+.background {
+  width: 100%;
+  background-image: linear-gradient(to  right, #fdf7f6, #fbf2ef, #fdf7f6 );
+  color: #000;
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+
+}
+    
+.profile-container {
+    width: 85.4%;
+    display: inline;
+    padding-top:0em;
+}
+    
+    
+    
+.profile-container img {
+    width: 61.8%;
+    justify-content: center;
+    border-radius: 50%;
+    padding-top: 2.618em;
+    padding-bottom: 2.618em;
+    
+
+    
+}
+    
+.rectangle-img img{
+    width: 100%;
+    justify-content: center;
+    border-radius: 50%;
+    padding-top: 1.618em;
+    border-radius: 0.312em;
+    
+    
+}
+    
+.profile-top-banner-padding {
+    width: 100%;
+    height: 2.236em;
+    background-image: linear-gradient(to  right, #1E283D, #314163, #1E283D );
+
+}
+    
+.profile-banner {
+    width: 100%;
+    background-image: linear-gradient(to  right, #1E283D, #314163, #1E283D );
+    color: #F5F5F7;
+    text-align: center;
+    padding-top: 1.618em;
+    padding-bottom: 1.618em;
+    box-shadow: 0px 2px 8px 2px grey;
+
+}
+    
+
+    
+.profile-item {
+    margin-top: 0%;
+    margin-bottom: 1.618em;
+    padding: 1.618em;
+    box-shadow: 1px 1px 3px grey;
+    backdrop-filter: blur(80px);
+    -webkit-backdrop-filter: blur(80px);
+    text-align: left;
+    font-size: 1em;
+    border-radius: 0.312em;
+}
+    
+.profile-item h3 {
+    padding: 0em;
+    padding-bottom: 0.618em;
+}
+    
+    
+.profile-text {
+    
+    
+}
+
+.profile-text p {
+    }
+    
+
+    
+@media (min-width:1024px)  {
+    
+    .background {
+        font-size: 1em;
+    }
+    
+    .profile-container {
+    width: 61.8%;
+    display: inline;
+    }
+    
+    .profile-container img {
+        width: 32.8%;
+        padding-bottom: 1.618em;
+    }
+    
+    .profile-banner {
+        padding-top: 1.618em;
+    }
+
+    
+}
+    
+@media (min-width:768px)  {
+
+    .background {
+        font-size: 1em;
+    }
+    
+    .profile-top-banner-padding {
+        height: 2em;
+    }
+    
+
+    
+}
+    
+    
+    
+
+
+
+
+.header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: auto;
+    Padding-bottom: 0.618em;
+    background-color: rgba(3,18,31,0.3);
+    backdrop-filter: blur(18px);
+    -webkit-backdrop-filter: blur(18px);
+
+}
+
+.navigation {
+
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-right: 0.618em;
+  padding-left: 0.618em;
+
+}
+
+.social-icons {
+
+  display:flex;
+  justify-content: center;
+
+}
+
+.social-icons img{
+  display: block;
+
+
+  height:1em;
+
+  padding-right: 0em;
+  padding-left: 0em;
+
+
+}
+
+
+
+.navigation-item {
+  display: inline-block;
+  font-size: 1em;
+  padding-top: 0.618em;
+  padding-bottom: 0;
+  padding-right: 1.382em;
+  padding-left: 1.382em;
+  align-self: center;
+
+}
+
+.navigation-item a {
+  text-decoration: none;
+  opacity: 0.8;
+  transition: 0.3s;
+  color: #f5f5f7;
+}
+
+.navigation-item a:hover {
+  opacity: 1;
+}
+
+
