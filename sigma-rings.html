@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async
+          src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+    </script>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+
+<body>
+
+
+
+<div class="background">
+    <div class="profile-top-banner-padding">
+    </div>
+
+    <div class="profile-banner">
+        <h1>INFORMATION ANALYSIS</h1>
+    </div>
+    
+    <div class="profile-container">
+        <div class="profile-text">
+            
+            
+            <div class="profile-item" style="margin-top:2.618em; margin-bottom:2.618em;">
+                <h3>σ-RINGS</h3>
+                <br>
+
+                <p>Probability spaces, foundational structures in probability and information theory, are specific examples of a general analytic structure: measure spaces.</p>
+
+                <br>
+
+                <p>A collection of sets ℛ is a <i>σ-ring</i> if: </p>
+                <br>
+
+                <div class="expression">the empty set is an element of ℛ:</div>
+
+                <div class="expression">∅ ∈ ℛ,</div>
+
+                <br>
+
+                <div class="expression">ℛ is closed under union:</div>
+
+                <div class="expression">(A ∪ B) ∈ ℛ ∀ A, B ∈ ℛ,</div>
+
+                <br>
+
+                <div class="expression">ℛ is closed under difference<a href="#footnote-2">[2]</a>:</div>
+
+                <div class="expression">(A - B) ∈ ℛ ∀ A, B ∈ ℛ,     and</div>
+
+                <br>
+
+                <div class="expression">ℛ is closed under countable unions:</div>
+
+                <div class="expression">∪{Aₙ | n ∈ ℕ} ∈ ℛ ∀ Aₙ ∈ ℛ</div>
+
+                <div class="expression">where Aₙ is a countably infinite sequence of sets as implied by the condition n ∈ ℕ.</div>
+
+                <br>
+
+
+                <p>The operations of union and difference here are analogous to addition and subtraction in arithmetic; they extend the concept of closure to sets. Just as additive and subtractive closure is a necessary property of algebraic structures like the real numbers ℝ (in example, addition or subtraction of any pair of real numbers results in another real number), closure under operations of union and difference are properties of σ-rings.</p>
+
+                <br>
+
+                <p>A few other important properties of a σ-ring ℛ are implied from the above definition:</p>
+
+                <br>
+
+
+                <div class="expression">For any Aₙ in ℛ, its compliment ℛ - Aₙ will also be in ℛ:</div>
+
+                <div class="expression">{ℛ - Aₙ | n ∈ ℕ} ∈ ℛ ∀ Aₙ ∈ ℛ.</div>
+
+                <br>
+
+                <div class="expression">Because A - (A - B) = A ∩ B, ℛ is also closed under intersection:</div>
+
+                <div class="expression">(A ∩ B) ∈ ℛ ∀ A, B ∈ ℛ.</div>
+
+                <br>
+
+                <p>σ-rings are often called σ-algebras and similar structures also labeled 'rings' are central to modern abstract algebra. In the modern abstract algebraic context, a ring is defined as a set with two binary operations where the second operation is distributive with respect to the first. The real numbers ℝ are an example of an algebra with addition (+) and multiplication (·) as binary operations; multiplication is distributive with respect to addition on ℝ:</p>
+
+                <br>
+
+                <div class="expression">∀ a, b, c ∈ ℝ:</div>
+
+                <div class="expression" style="padding-left: 2.618em;">a·(b + c) = a·b + b·c</div>
+
+                <div class="expression" style="padding-left: 2.618em;">and</div>
+
+                <div class="expression" style="padding-left: 2.618em;">(b + c)·a = b·a + c·a.</div>
+
+                <br>
+
+                <p>Likewise a σ-ring ℛ with binary operations of union (∪) and intersection (∩) also satisfy this property:</p>
+
+                <div class="expression">∀ A, B, C ∈ ℛ:</div>
+
+                <div class="expression" style="padding-left: 2.618em;">A ∩ (B ∪ C) = (A ∩ B) ∪ (B ∩ C)</div>
+
+                <div class="expression" style="padding-left: 2.618em;">and</div>
+    
+                <div class="expression" style="padding-left: 2.618em;">(B ∪ C) ∩ A = (B ∩ A) ∪ (C ∩ A).</div>
+
+                <br>
+
+                <p>In an algebra such as ℝ each element also necessarily has an inverse with respect to the additive binary operation (+):</p>
+
+                <br>
+
+                <div class="expression">∀ a ∈ ℝ ∃ b ∈ ℝ | a + b = b + a = 0.</div>
+
+                <br>
+
+                <p>In a σ-ring, however, elements lack an analogous inverse with respect to the binary operation of union (∪); definitions of rings in the context of modern abstract algebra typically require them to be an abelian group under their additive binary operation and the absence of an inverse for each element of a σ-ring with respect to union thus distinguishes a σ-ring from an algebra.</p>
+
+
+
+
+
+                
+
+
+
+                <br>
+                <hr>
+                <br>
+
+                <code id="footnote-2">[2] Note that this definition of 'difference' is distinct from and not identical to 'symmetric difference' corresponding to XOR in boolean logic.</code>
+
+
+
+
+                <h3 style="text-align: center; padding-top:2.618em;">
+                    <a href="/notation.html" style="padding-right:1.618em;"> &#8249 NOTATION</a>
+                    <a href="/measure-spaces.html">MEASURE SPACES &#8250</a>
+                </h3>
+
+
+            </div>
+
+
+        </div>
+
+        <center>
+            <p>Joseph Shaw</p>
+            <img src="emblem.png" alt="emblem" style="width:23.6%;">
+        </center>
+    </div>
+
+            
+            
+            
+        
+    <div class="header">
+        <div class="navigation">
+        
+        
+        <!--
+            <div class="social-icons">
+                <div class="navigation-item"><a href="#index"><img src="emblem.png" alt="index" style="height:2.618em; background-color:transparent; border-radius: 50%;"></a></div>
+            </div> 
+
+
+            <div class="navigation-item"><a href="#design">Publications</a></div>
+
+        -->
+         
+            <div class="social-icons">
+
+                <div class="navigation-item"><a href="https://www.youtube.com/@ingeniumnatura/"><img src="logo-youtube.svg" alt="YouTube"></a></div>
+                <div class="navigation-item"><a href="https://www.twitter.com/ingeniumnatura/"><img src="logo-x.png" alt="X/Twitter"></a></div>
+                <div class="navigation-item"><a href="https://www.instagram.com/ingeniumnatura/"><img src="logo-instagram.svg" alt="Instagram"></a></div>
+
+                <div class="navigation-item"><a href="https://github.com/ingeniumnatura"><img src="logo-github.png" alt="GitHub"></a></div>
+
+
+                <div class="navigation-item"><a href="https://www.linkedin.com/in/ingeniumnatura"><img src="logo-linkedin.png" alt="Linkedin"></a></div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
