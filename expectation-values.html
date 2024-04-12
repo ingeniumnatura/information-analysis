@@ -30,35 +30,49 @@
             
             
             <div class="profile-item" style="margin-top:2.618em; margin-bottom:2.618em;">
-                <h3>INTRODUCTION</h3>
-                <p>A study of information theory deepens and enriches understanding of a broad variety of technical fields - from obvious applications in computer science such as data compression and encryption, to statistics and machine learning, to fundamental theories of physics. </p>
-                
-                <br>
-                
-                <p>A broadly applicable subject located at the intersection of a diverse set of technical disciplines has resulted in the use of some arguably esoteric mathematical notation which may be difficult to understand for newcomers. While a rich subject building upon different branches of mathematics does require some liberty in notation, this text develops information theoretic structures using a style of notation accessible and appropriately robust.</p>
-                
-                <br>
-                
-                <p>Familiarity with basic concepts and structures of <a href="#footnote-1">real analysis</a> is recommended prerequisite material; set-builder notation is frequently used for discrete cases, and integrals and derivatives for continuous.</p>
-                
-                <br>
-                
-                <p>As data compression is one of the core applications of information theory, emphasis is placed on developing definitions in a compact style. Mathematical logic symbols are frequently used; however, this is not an exercise in axiomatically describing structures in number theory or a rigorous formulation of mathematical logic. Rather, consider these foundations upon which this analysis of information theory is built.</p>
-
-                <br>
-                <hr>
+                <h3>EXPECTATION VALUES ℰ</h3>
                 <br>
 
-                <a href="https://www.mheducation.com/highered/product/principles-mathematical-analysis-rudin/M9780070542358.html">
 
-                    <code id="footnote-1">Principles of Mathematical Analysis, 3rd Edition. Walter Rudin. McGraw Hill. ISBN10: 007054235X, ISBN13: 9780070542358. Published 1976.</code>
-                </a>
+                <p>The expectation value of a random variable X, denoted here as ℰ(X), is the arithmetic mean of a large number of outcomes of a random experiment:</p>
+
+                <br>
+
+                <div class="expression">ℰ(X) = Σ{xₙP(xₙ) | n ∈ ℕ}</div>
+
+                <div class="expression">if X is discrete.</div>
+
+                <br>
+
+                <div class="expression">If X is continuous:</div>
+
+                <div class="expression">ℰ(X) = ∫ xP(x) dx.</div>
+
+                <br>
+
+                <p>If g(X) is any other random variable that is defined as a function of X:</p>
+
+                <br>
+
+                <div class="expression">ℰ(g(X)) = Σ{g(xₙ)P(xₙ) | n ∈ ℕ}</div>
+
+                <div class="expression">if X is discrete.</div>
+
+                <br>
+
+                <div class="expression">If X is continuous:</div>
+
+                <div class="expression">ℰ(g(X)) = ∫ g(x)P(x) dx.</div>
+
+                
+
+
 
 
 
                 <h3 style="text-align: center; padding-top:2.618em;">
-                    <a href="/index.html" style="padding-right:1.618em;"> &#8249 LICENSE</a>
-                    <a href="/notation.html">NOTATION &#8250</a>
+                    <a href="/probability-spaces.html" style="padding-right:1.618em;"> &#8249 PROBABILITY SPACES & RANDOM VARIABLES</a>
+                    <a href="/entropy.html">ENTROPY H &#8250</a>
                 </h3>
 
 
